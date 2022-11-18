@@ -2,6 +2,7 @@
 @import "verables";
 @import "mixin";
 
+
 #best {
   .best {
     &--title {
@@ -33,6 +34,7 @@
       width: 270px;
       height: 500px;
       background: #FFFFFF;
+
 
       .dollar {
         @include center;
@@ -89,6 +91,8 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
+  background: #fff;
+
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,4 +112,5 @@
   display: block;
   object-fit: cover;
 }
+
 //swiper-end

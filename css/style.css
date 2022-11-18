@@ -36,6 +36,7 @@ body {
   color: #666666;
   padding-bottom: 20px;
 }
+
 #best .best--slider {
   width: 270px;
   height: 500px;
@@ -101,6 +102,7 @@ body {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
+  background: #fff;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
