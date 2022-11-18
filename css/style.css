@@ -36,6 +36,12 @@ body {
   color: #666666;
   padding-bottom: 20px;
 }
+
+#best .best--slider {
+  width: 270px;
+  height: 500px;
+  background: #FFFFFF;
+}
 #best .best--slider .dollar {
   display: flex;
   align-items: center;
@@ -81,6 +87,11 @@ body {
   background: #1F39BA;
   border-radius: 10px;
   padding: 10px 20px;
+  transition: 0.4s;
+}
+#best .best--slider button:hover {
+  background: transparent;
+  color: black;
 }
 
 .swiper {
