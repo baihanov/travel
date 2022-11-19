@@ -1041,4 +1041,89 @@ body {
   right: 10px;
 }
 
+#touch .touch {
+  padding-top: 50%;
+}
+#touch .touch--top ul {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #474747;
+}
+#touch .touch--top h1 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #474747;
+}
+#touch .touch--top p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #666666;
+}
+#touch .touch--text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+#touch .touch--text--left {
+  position: relative;
+  width: 570px;
+  height: 479px;
+  background: #F7F7F8;
+  opacity: 0.8;
+  border-radius: 24px;
+}
+#touch .touch--text--left input {
+  font-weight: 400;
+  font-size: 25px;
+  color: #000;
+  border: none;
+  margin: 50px 80px;
+  outline: none;
+}
+#touch .touch--text--left--one {
+  width: 438px;
+  height: 0;
+  border: 1px solid #CACACA;
+  position: absolute;
+  top: 90px;
+  left: 50px;
+}
+#touch .touch--text--left--two {
+  position: absolute;
+  bottom: 120px;
+  left: 50px;
+  width: 438px;
+  height: 0;
+  border: 1px solid #CACACA;
+}
+#touch .touch--text--left--three {
+  position: absolute;
+  top: 220px;
+  width: 438px;
+  height: 0;
+  left: 50px;
+  border: 1px solid #CACACA;
+}
+#touch .touch--text--left button {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 170px;
+  height: 50px;
+  background: #0600AE;
+  border-radius: 10px;
+  margin: 0 80px;
+  transition: 0.4s;
+}
+#touch .touch--text--left button:hover {
+  background: transparent;
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
