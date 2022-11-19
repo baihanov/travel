@@ -490,3 +490,109 @@
     }
   }
 }
+
+#tourist {
+  .tourist {
+    position: relative;
+
+
+    ul {
+      font-weight: 400;
+      font-size: 16px;
+      color: #666666;
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 36px;
+      text-align: center;
+      color: #474747;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #666666;
+    }
+    &--text {
+
+    &--image {
+
+      &__fon2 {
+        position: absolute;
+        top: 120px;
+        left: -20px;
+      }
+
+      &__fon3 {
+        position: absolute;
+        top: 400px;
+        left: 190px;
+      }
+
+      &__fon4 {
+        position: absolute;
+        top: 500px;
+        left: -35px;
+      }
+
+      &__fon6 {
+        position: absolute;
+        top: 200px;
+        left: 40px;
+        border-radius: 20px;
+      }
+
+      &__fon5 {
+        position: absolute;
+        left: 270px;
+        top: 165px;
+      }
+
+      &__block {
+        position: absolute;
+        top: 650px;
+        left: 330px;
+      }
+    }
+
+    &--title {
+      position: absolute;
+      right: 0;
+      top: 200px;
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #666666;
+        padding-bottom: 30px;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-size: 16px;
+        color: #3793D8;
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 14px;
+        color: #666666;
+        padding: 5px 0;
+      }
+
+      &__ser {
+        position: absolute;
+        top: -50px;
+      }
+
+      &__ser2 {
+        position: absolute;
+        right: 10px;
+      }
+    }
+  }
+}
+}

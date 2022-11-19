@@ -16,6 +16,72 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+@media (max-width: 1200px) {
+  .tourist {
+    position: relative;
+  }
+  .tourist--image__fon2 {
+    position: absolute;
+    top: 120px;
+    left: -20px;
+  }
+  .tourist--image__fon3 {
+    position: absolute;
+    top: 400px;
+    left: 190px;
+  }
+  .tourist--image__fon4 {
+    position: absolute;
+    top: 500px;
+    left: -35px;
+  }
+  .tourist--image__fon6 {
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    border-radius: 20px;
+  }
+  .tourist--image__fon5 {
+    position: absolute;
+    left: 270px;
+    top: 165px;
+  }
+  .tourist--image__block {
+    position: absolute;
+    top: 650px;
+    left: 330px;
+  }
+  .tourist--title {
+    position: absolute;
+    right: 0;
+    top: 200px;
+  }
+  .tourist--title p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #666666;
+    padding-bottom: 30px;
+  }
+  .tourist--title h2 {
+    font-weight: 700;
+    font-size: 16px;
+    color: #3793D8;
+  }
+  .tourist--title h3 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666666;
+    padding: 5px 0;
+  }
+  .tourist--title__ser {
+    position: absolute;
+    top: -50px;
+  }
+  .tourist--title__ser2 {
+    position: absolute;
+    right: 10px;
+  }
+}
 @media (max-width: 724px) {
   #book .book--title ul {
     text-align: center;
@@ -890,6 +956,89 @@ body {
   font-size: 14px;
   color: #1F39BA;
   margin: 0 25px;
+}
+
+#tourist .tourist {
+  position: relative;
+}
+#tourist .tourist ul {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+}
+#tourist .tourist h1 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #474747;
+}
+#tourist .tourist p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #666666;
+}
+#tourist .tourist--text--image__fon2 {
+  position: absolute;
+  top: 120px;
+  left: -20px;
+}
+#tourist .tourist--text--image__fon3 {
+  position: absolute;
+  top: 400px;
+  left: 190px;
+}
+#tourist .tourist--text--image__fon4 {
+  position: absolute;
+  top: 500px;
+  left: -35px;
+}
+#tourist .tourist--text--image__fon6 {
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  border-radius: 20px;
+}
+#tourist .tourist--text--image__fon5 {
+  position: absolute;
+  left: 270px;
+  top: 165px;
+}
+#tourist .tourist--text--image__block {
+  position: absolute;
+  top: 650px;
+  left: 330px;
+}
+#tourist .tourist--text--title {
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+#tourist .tourist--text--title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  padding-bottom: 30px;
+}
+#tourist .tourist--text--title h2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #3793D8;
+}
+#tourist .tourist--text--title h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  padding: 5px 0;
+}
+#tourist .tourist--text--title__ser {
+  position: absolute;
+  top: -50px;
+}
+#tourist .tourist--text--title__ser2 {
+  position: absolute;
+  right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
