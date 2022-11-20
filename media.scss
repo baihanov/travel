@@ -1,5 +1,4 @@
 @media (max-width: 1440px) {
-  
 }
 @media (max-width: 1200px) {
   .tourist {
@@ -85,7 +84,29 @@
 
 }
 @media (max-width: 992px) {
+  #header {
+    .travel {
+      h1 {
+        font-weight: 700;
+        font-size: 30px !important;
+        color: #0600AE;
 
+        span {
+          font-weight: 700;
+          font-size: 30px !important;
+          color:#474747;
+        }
+      }
+      &--text {
+        a {
+          display: none;
+        }
+      }
+      button {
+        @include btn;
+      }
+    }
+  }
 }
 @media (max-width: 724px) {
   #book {
@@ -244,6 +265,29 @@
       }
     }
   }
+  #header {
+    .travel {
+      h1 {
+        font-weight: 700;
+        font-size: 20px !important;
+        color: #0600AE;
+
+        span {
+          font-weight: 700;
+          font-size: 20px !important;
+          color:#474747;
+        }
+      }
+      &--text {
+        a {
+          display: none;
+        }
+      }
+      button {
+        @include btn;
+      }
+    }
+  }
 }
 @media (max-width: 576px) {
   #book {
@@ -341,6 +385,30 @@
             }
           }
         }
+      }
+    }
+  }
+  #header {
+    .travel {
+      h1 {
+        font-weight: 700;
+        font-size: 20px !important;
+        color: #0600AE;
+
+        span {
+          font-weight: 700;
+          font-size: 20px !important;
+          color:#474747;
+          text-align: center;
+        }
+      }
+      &--text {
+        a {
+          display: none;
+        }
+      }
+      button {
+        @include btn;
       }
     }
   }
